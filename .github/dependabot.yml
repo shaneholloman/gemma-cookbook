@@ -1,7 +1,8 @@
 version: 2
 updates:
   - package-ecosystem: "npm"
-    directory: "/npm_and_yarn/helpers"
+    directories:
+      - "/**"
     schedule:
       interval: "daily"
     exclude-paths:
